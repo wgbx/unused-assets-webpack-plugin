@@ -1,0 +1,8 @@
+{
+  ".png": [
+    "D:\\project\\unused-assets-webpack-plugin\\examples\\src\\assets\\logo.png"
+  ],
+  ".vue": [
+    "D:\\project\\unused-assets-webpack-plugin\\examples\\src\\components\\HelloWorld.vue"
+  ]
+}
