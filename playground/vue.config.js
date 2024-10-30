@@ -1,10 +1,11 @@
-const UnusedFilesWebpackPlugin = require("../packages/index");
+const UnusedAssetsWebpackPlugin = require('../packages/index')
 
 module.exports = {
   transpileDependencies: [],
   configureWebpack: {
-    plugins: [new UnusedFilesWebpackPlugin({
-      exclude: ['.ts']
-    })],
-  },
-};
+    plugins: [
+      new UnusedAssetsWebpackPlugin()
+    ]
+  }
+
+}
