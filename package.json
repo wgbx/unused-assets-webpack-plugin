@@ -1,5 +1,5 @@
 {
-  "name": "unused-assets-webpack-plugin",
+  "name": "@wgbx/unused-assets-webpack-plugin",
   "version": "0.0.1",
   "description": "查找项目中是否存在是否未使用的资源",
   "keywords": [
@@ -16,6 +16,9 @@
       "require": "./dist/unused-assets-webpack-plugin.cjs",
       "import": "./dist/unused-assets-webpack-plugin.mjs"
     }
+  },
+  "publishConfig": {
+    "@wgbx:registry": "https://npm.pkg.github.com"
   },
   "main": "dist/unused-assets-webpack-plugin.cjs",
   "module": "dist/unused-assets-webpack-plugin.mjs",

@@ -1,15 +1,17 @@
 <h1 align="center">unused-assets-webpack-plugin</h1>
-<p align="center">查找项目中是否存在是否未使用的资源</p>
+<p align="center">Find whether there are unused assets in the project</p>
 
-## 配置项
+[简体中文](./READM-ZH.md)
 
-| **配置项名称** | **是否必须** | **含义**           | **默认值** | **类型**  |
+## Configuration Options
+
+| **Configuration Option Name** | **Required** | **Meaning**           | **Default Value** | **Type**  |
 | -------------- | ------------ | --------           | ---------- | --------  |
-| `path`    | 否           | 查找的资源路径 | ./src        | `string`  |
-| `output`    | 否           | 输出的文件路径 | ./unused-files.json   |`string` |
-| `exclude`    | 否           | 排除的文件类型 | []      | `string[]` |
+| `path`    | No           | The resource path to search |./src        | `string`  |
+| `output`    | No           | The output file path |./unused-files.json   |`string` |
+| `exclude`    | No           | The file types to exclude | []      | `string[]` |
 
-## 安装
+## [Installation](https://www.npmjs.com/package/unused-assets-webpack-plugin)
 
 ```bash
 npm install unused-assets-webpack-plugin -D
@@ -17,7 +19,7 @@ npm install unused-assets-webpack-plugin -D
 pnpm add unused-assets-webpack-plugin -D
 ```
 
-## 用法
+## Usage
 
 - vue.config.js
 
